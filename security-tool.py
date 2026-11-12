@@ -98,7 +98,7 @@ def brute_force_simulation():
     print("\nBrute-Force Simulation")
 
     # Set the predefined password
-    predefined_password = "Python123"
+    predefined_password = "Pa$$w0rd"
 
     # Set the maximum number of attempts
     max_attempts = 5
@@ -132,7 +132,10 @@ def brute_force_simulation():
 
         print("Maximum attempts reached!")
         print("Brute-force simulation stopped.")
-
+#display the percentage of incorrect guesses
+    if attempts == max_attempts:
+        incorrect_percentage = (attempts / max_attempts) * 100
+        print("Percentage of incorrect guesses:", incorrect_percentage, "%")
 
 # FUNCTION 4: DISPLAY MENU
 
