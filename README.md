@@ -14,58 +14,6 @@ The program requires the user to authenticate before accessing a security menu. 
 
 The program continues running until the user chooses the Exit option.
 
-## Program Features
-
-### 1. Security Event Counter
-
-- Asks the user to enter a password ten times.
-- Compares each entered password with a predefined correct password.
-- Counts the number of correct password entries.
-- Counts the number of incorrect password entries.
-- Calculates the percentage of incorrect password entries.
-- Displays an alert if the percentage of incorrect entries exceeds 50%.
-
-### 2. Brute-Force Simulation
-
-- Uses a predefined password.
-- Allows the user to enter password guesses.
-- Counts the number of attempts.
-- Stops when the correct password is entered.
-- Stops when the maximum number of attempts is reached.
-
-### 3. Login Authentication
-
-- Requests a username and password.
-- Checks whether the entered credentials are correct.
-- Displays whether authentication was successful or unsuccessful.
-- Allows the user to try again after an unsuccessful login.
-- Allows a maximum of three failed login attempts.
-- Displays a message stating that the account is frozen for 24 hours after the maximum number of failed attempts.
-
-### 4. Exit
-
-- Allows the user to exit the security tool.
-- Displays the message:
-
-  "Thank you for using the security tool".
-
-## Python Concepts Used
-
-- Variables and data types.
-- User input and output.
-- Conditional statements (`if`, `elif`, `else`).
-- Loops (`while` and `for`).
-- Counters.
-- Mathematical calculations.
-- Input validation.
-- Exception handling using `try-except` where appropriate.
-
-## Technologies Used
-
-- Python 3.
-- Visual Studio Code.
-- Git and GitHub.
-
 ## Project Files
 
 - `security_tool.py` – Main Python program.
@@ -83,23 +31,9 @@ The program continues running until the user chooses the Exit option.
 6. Follow the instructions displayed in the terminal.
 7. Enter the required login credentials to access the security menu.
 
-Alternatively, run the program using the terminal:
-
-```bash
-python security_tool.py
-```
-
-On some systems, use:
-
-```bash
-python3 security_tool.py
-```
-
 ## Testing and Evidence
 
-The program should be tested using different inputs.
-
-Testing should include:
+Here is what i used to test the program:
 
 - Successful initial authentication.
 - Incorrect initial authentication.
@@ -111,9 +45,4 @@ Testing should include:
 - Three consecutive failed login attempts.
 - Selecting the Exit option.
 
-Screenshots of the program outputs will be saved in the `screenshots/` folder.
-
-## GitHub Branch
-
-- **Branch Name:** `security-tool`
-- **Task Number:** Task 1
+Screenshots provided in the branch.
