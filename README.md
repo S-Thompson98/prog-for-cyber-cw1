@@ -14,30 +14,6 @@ Instead of writing all the program functionality in one Python file, the project
 
 A second file called `main.py` imports the module and uses its functions to validate passwords, check IP addresses and generate strong random passwords.
 
-### File Descriptions
-
-**1. security_tools.py**
-
-- Contains reusable cyber security functions.
-- Includes password validation.
-- Includes IP address validation.
-- Includes strong random password generation.
-
-**2. main.py**
-
-- Imports the `security_tools` module.
-- Collects user input.
-- Calls the functions from the module.
-- Displays the results to the user.
-
-## Project Files
-
-- `main.py` – Main Python program.
-- `security_tools.py` – Reusable cyber security functions.
-- `README.md` – Project documentation.
-- `LICENSE` – Repository licence.
-- `screenshots/` – Testing screenshots.
-
 ## How to Run the Program
 
 1. Open the GitHub repository.
@@ -51,23 +27,11 @@ A second file called `main.py` imports the module and uses its functions to vali
 9. Review the validation results.
 10. If the password is not strong enough, review the suggested generated password.
 
-Alternatively, open the terminal in the project directory and run:
-
-```bash
-python main.py
-```
-
-On some systems, use:
-
-```bash
-python3 main.py
-```
-
 **Important:** Run `main.py` rather than `security_tools.py`, because `main.py` imports and uses the functions from the module.
 
 ## Testing and Evidence
 
-The program should be tested using different passwords and IP addresses.
+Here is the testing used:
 
 ### Password Testing
 
@@ -94,7 +58,3 @@ The program should be tested using different passwords and IP addresses.
 
 Screenshots provided in branch.
 
-## GitHub Branch
-
-- **Branch Name:** `cyber-security-utilities`
-- **Task Number:** Task 5
